@@ -111,9 +111,27 @@ small{
   text-align: center;
   padding: 40px;
 }
+nav{
+  text-align: center;
+  background-color: #f3f3f3;
+}
 
 section{
-  padding:100px 30px;
+  display: flex;
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+}
+
+
+.section li{
+  display:inline-block;
+  width: 100px;
+}
+
+.section li a {
+  text-decoration: none;
+  color:#333
 }
 
 section:nth-child(2n){
